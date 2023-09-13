@@ -9,19 +9,24 @@ main{
 }
 
 header {
-    
-    
-    padding: 20px;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(211, 230, 227);
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
 }
 
-
+p {
+    margin: 0;
+}
 
 .mail-icon{
-    width: 50px;
-    height: 50px;
+    padding: 10px 15px;
     border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
    
 }
 
@@ -32,25 +37,32 @@ header {
 }
 
 .hover:hover{
-    background-color: rgb(188, 214, 205);
+    background-color: rgb(119, 139, 231);
     cursor: pointer;
+    color: aliceblue;
 }
 
 
-.url , .SignUp , .SignIn{
-    width: 150px;
-    border: 1px solid;
-    height: 30px;
-    font-size: 0.9em;
+ul {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 3px;
     
-    
 }
 
-h1 {
-    font-size: 0.9em;
-    text-align: center ;
-    /* margin: 19px 0 0 0; */
+ul li{
+   
+    padding: 10px 20px;
 }
+ul li a {
+    text-decoration: none;
+}
+
+
+
 
 section{
     border: 1px solid;
